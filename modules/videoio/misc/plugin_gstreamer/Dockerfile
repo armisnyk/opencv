@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:focal
 
 RUN apt-get update && apt-get --no-install-recommends install -y \
         libgstreamer-plugins-base1.0-dev \
